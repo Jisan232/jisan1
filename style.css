@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.logo{
+    height: 50px;
+    width: 100px;
+}
+.box1{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+} 
+.icon{
+    display: flex;
+
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: white;
+    font-size: 1rem;
+    margin-left: 4px;
+
+}
+.nav-search{
+    width: 620px;
+    height: 40px;
+    display: flex;
+    background-color: pink;
+    text-align: center;
+    border-radius: 5px;
+}
+.nav-search input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    }
+.nav-search select{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+   background-color: #eee4e4;
+}
+.jisan{
+    align-items: center;
+    background-color: #e77000;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+
+}
+.nav-search:hover{
+    border: 2px solid rgb(221, 64, 7);
+}
+.icon1{
+    display: flex;
+    font-weight: bold;
+
+}
+.icon1 p{
+    padding-left: 5px;
+    margin-top: 4px;
+
+}
+.icon1 i{
+    font-size: 22px;
+}
+.panel{
+    display:flex;
+    height: 35px;
+    width: 100%;
+    background: #252929;
+    color: white;
+    font-weight: 3rem;
+    align-items: center;
+    padding-left: 10px;
+    text-align: center;
+    position: relative;
+}
+.panel p{
+    display: inline;
+    padding: 10px;
+}
+.gw{
+    padding: 10px;
+}
+.Shop P{
+    font-weight: bold;
+   
+}
+.panel-ops{
+    width: 80%;
+    text-align: left;
+}
+.panel-ops p:hover{
+    border: 1.5px solid white;
+}
+.img{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.hero-section{
+    width: 100%;
+    height:400px;
+}
+.img p{
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 300px;
+    text-align: center;
+    margin-left: 15%;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+    
+}
+.box{
+    border: 1.5px solid black;
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1 rem;
+ 
+}
+.box p{
+    color: #007185;
+}
+.box p:hover{
+    color: #e77000;
+}
+.panel1{
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    font-size: 0.85rem;
+    justify-content: center;
+
+    color: white;
+}
+footer{
+    margin-top: 100px;
+
+}
+.footer-panel2{
+    background-color: #222f3d;
+    color:white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-panel2 a {
+      display:block;
+      font-size: 0.85rem;
+      margin-top: 10px;
+color: #dddddd;
+
+}
+ul{
+    margin-top: 20px;
+}
+.foot3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pages{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: ;
+
+}
+.foot{
+    font-size: 0.7rem;
+     text-align: center;
+     padding-top: 25px;
+
+}
+.copy{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}
+.box-img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    transition-delay: inherit;
+}
+
+
+
+
